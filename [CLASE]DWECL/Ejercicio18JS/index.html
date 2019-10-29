@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <title>Ej19</title>
+</head>
+
+<body>
+    <form>
+        <div id="Calculadora">
+            <ul>
+                <li class="texto">
+                    <textarea readonly id="ta1" cols="10" rows="1"></textarea>
+                    <textarea readonly id="ta2" cols="3" rows="1"></textarea>
+                </li>
+                <li>
+                    <input type="button" onclick="ta1.value +=  numeroPulsado(1)" value="1">
+                    <input type="button" onclick="ta1.value +=  numeroPulsado(2)" value="2">
+                    <input type="button" onclick="ta1.value +=  numeroPulsado(3)" value="3">
+                    <input type="button" onclick="ta2.value += operacionPulsada('+')" value="+">
+                    <input type="button" onclick="ta1.value += ta2.value = borraCalc()" value="Ce">
+                </li>
+                <li>
+                    <input type="button" onclick="ta1.value +=  numeroPulsado(4)" value="4">
+                    <input type="button" onclick="ta1.value +=  numeroPulsado(5)" value="5">
+                    <input type="button" onclick="ta1.value +=  numeroPulsado(6)" value="6">
+                    <input type="button" onclick="ta2.value = operacionPulsada('-')" value="-">
+                    <input type="button" onclick="ta1.value = memoriaCalc(1)" value="Re">
+                </li>
+                /*numero pulsado a this.value*/
+                <li>
+                    <input type="button" onclick="ta1.value +=  numeroPulsado(7)" value="7">
+                    <input type="button" onclick="ta1.value +=  numeroPulsado(8)" value="8">
+                    <input type="button" onclick="ta1.value +=  numeroPulsado(9)" value="9">
+                    <input type="button" onclick="ta2.value = operacionPulsada('x')" value="x">
+                    <input type="button" onclick="ta1.value = memoriaCalc(0)" value="Me">
+                </li>
+                <li>
+                    <input type="button" onclick="ta1.value =  numeroPulsado(0)" value="0">
+                    <input type="button" onclick="ta1.value = numeroPulsado('.')" value=".">
+                    <input type="button" onclick="ta1.value = resuelveOperacion()" value="=">
+                    <input type="button" onclick="ta2.value = operacionPulsada('/')" value="/">
+                    <input type="button" onclick="abrirLupa()" value="Lupa">
+                </li>
+            </ul>
+        </div>
+    </form>
+    <script src="javascript/code.js"></script>
+</body>
+</html>

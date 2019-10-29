@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="esES">
+<head>
+    <meta charset="UTF-8">
+    <title>Ej9JS</title>
+</head>
+<body>
+    
+    <script>
+        var sw1 = 0;
+        function cambiaColor(sw) {
+            sw1 = sw;
+           switch(sw) {
+               case 1: 
+                    document.bgColor='red';
+                    break;
+               case 2:
+                    document.bgColor = "blue";
+                    break;
+               case 3: 
+                    document.bgColor = "green";
+                    break;
+               case 4: 
+                    document.bgColor = "yellow";
+                    break;
+           }
+        }
+        function mas() {
+            sw1 = sw1 - 1;
+            if(sw1<1) sw1 = 4;
+            switch(sw1) {
+               case 1: 
+                    document.bgColor='red';
+                    break;
+               case 2:
+                    document.bgColor = "blue";
+                    break;
+               case 3: 
+                    document.bgColor = "green";
+                    break;
+               case 4: 
+                    document.bgColor = "yellow";
+                    break;
+           }
+        }
+    </script>
+    <p>Escoga un boton para un color</p>
+    <form>
+        <input type="button" value="Rojo"     name="Red"     onclick="cambiaColor(1)">
+        <input type="button" value="Azul"     name="Blue"    onclick="cambiaColor(2)">
+        <input type="button" value="Verde"    name="Green"   onclick="cambiaColor(3)">
+        <input type="button" value="Amarillo" name="Yellow"  onclick="cambiaColor(4)">
+        <input type="button" value="Mas"      name="More"    onclick="mas()">
+    </form>
+    
+    
+</body>
+</html>

@@ -1,0 +1,53 @@
+.p{
+    text-align: center;
+    background-color: yellow;
+    border: 5px solid;
+    border-color: red;
+    margin: auto;
+    padding: 10px;
+    color: red;
+    margin-bottom: 1%;
+}
+
+*{
+    clear: both;
+    margin: 0 auto;
+    width: 80%;
+    
+}
+
+.p2{
+    text-align: center;
+    background-color: grey;
+    border: 5px solid;
+    border-color: grey;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 1%;
+}
+
+.p3{
+    text-align: center;
+    background-color: darkkhaki;
+    border: 5px solid;
+    border-color: darkblue;
+    margin: auto;
+    padding: 10px;
+    color: darkblue;
+    margin-bottom: 1%;
+}
+.p4{
+    
+    background-color: grey;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 1%;
+}
+.p5{
+    text-align: center;
+    background-color: white;
+    text-align: center;
+    border: 5px solid;
+    padding: 30px;
+    
+}

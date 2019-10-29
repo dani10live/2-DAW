@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ej9JS</title>
+</head>
+<body>
+    
+    <script>
+        var chorizo = ""
+        function crearTabla() {
+            var personas=[]
+            var edades=[]
+            
+            var tabla = ""
+   
+            
+            for(let i=0;i<5;i++){
+                personas[i] = prompt("Introduzca el nombre de la persona numero "+(i+1))
+                edades[i] = prompt("Introduzca la edad de la persona numero "+(i+1))
+                chorizo = chorizo + personas[i]+"*"+edades[i]+"#"
+            }
+            
+            tabla = "<table border=1><tr><td>NOMBRE</td><td>EDAD</td></tr>" 
+            var count = 4;
+            for(let i=0;i<5;i++) {
+                tabla += "<tr><td>"+personas[i]+"</td><td>"+edades[count]+"</tr>"
+                count--
+            }
+            
+            document.getElementById("paragraph1").innerHTML = tabla
+        
+            
+        }
+        function mostrarChorizo() {
+            alert(chorizo)
+        }
+    </script>
+    
+    <p>
+        <input type="button" value="Crear" onclick="crearTabla()">
+        <input type="button" value="Romper" onclick="mostrarChorizo()">
+   </p>
+    <div id="paragraph1">
+    </div>
+    
+</body>
+</html>

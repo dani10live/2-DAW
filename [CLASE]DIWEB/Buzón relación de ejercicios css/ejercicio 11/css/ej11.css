@@ -1,0 +1,70 @@
+*{
+    margin: auto;
+    background-color: #FECABF;
+    clear:both;
+}
+.cabecera{
+    background-color: green;
+    text-align: right;
+    color: white;
+}
+.encabezado{
+    background-color: darksalmon;
+    text-align: center;
+    font-size: 30px;
+}
+
+.fondo{
+    background-color: darksalmon;
+}
+.caja p{
+    margin: 1%;
+}
+.caja{
+    margin: 0 auto;
+    width: 60%;
+    border-left-style: dotted;
+    border-right-style: dotted;
+    border-color: green;
+    text-indent: 1%;
+}
+.derecha{
+    float: right;
+    background-color: darksalmon;
+    border: darkred 5px solid;
+    width: 80%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+.colorfondo{
+    background-color: darksalmon;
+    margin: 1%
+}
+
+.titulode{
+    background-color: darkred;
+    color: white;
+    font-size: 20px;
+}
+
+.tituloiz{
+    background-color: darkgreen;
+    color: white;
+    font-size: 20px;
+}
+
+.izquierda{
+    float: left;
+    
+    background-color: darksalmon;
+    border: darkgreen 5px solid;
+    width: 80%;
+}
+
+
+.pie{
+    margin-top: 65%;
+    background-color: chocolate;
+    border-top: solid darkred 2px;
+}
+

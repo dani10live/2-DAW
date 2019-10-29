@@ -1,0 +1,17 @@
+.header {
+    overflow: hidden;
+    background-image: url(media/fotox.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.header a.logo img {
+     position: relative;
+     max-height: 25px;    
+
+}
+#titulo {
+    float: right;
+    text-align: left;
+    background-color: green;
+    color: white;
+}

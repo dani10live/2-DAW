@@ -1,0 +1,10 @@
+C:\Users\estudiante\Desktop\ProyectosVb\Eqlib\bin\Debug\Eqlib.dll
+C:\Users\estudiante\Desktop\ProyectosVb\Eqlib\bin\Debug\Eqlib.pdb
+C:\Users\estudiante\Desktop\ProyectosVb\Eqlib\bin\Debug\Eqlib.xml
+C:\Users\estudiante\Desktop\ProyectosVb\Eqlib\obj\Debug\Eqlib.vbprojAssemblyReference.cache
+C:\Users\estudiante\Desktop\ProyectosVb\Eqlib\obj\Debug\Eqlib.Resources.resources
+C:\Users\estudiante\Desktop\ProyectosVb\Eqlib\obj\Debug\Eqlib.vbproj.GenerateResource.cache
+C:\Users\estudiante\Desktop\ProyectosVb\Eqlib\obj\Debug\Eqlib.vbproj.CoreCompileInputs.cache
+C:\Users\estudiante\Desktop\ProyectosVb\Eqlib\obj\Debug\Eqlib.dll
+C:\Users\estudiante\Desktop\ProyectosVb\Eqlib\obj\Debug\Eqlib.xml
+C:\Users\estudiante\Desktop\ProyectosVb\Eqlib\obj\Debug\Eqlib.pdb

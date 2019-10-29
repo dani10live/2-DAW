@@ -1,0 +1,109 @@
+* {
+    margin: 0 auto;
+    font-family: monospace;
+    /* clear: both; */
+}
+.limpiar {
+    clear: both;
+}
+main {
+     width: 50%;
+}
+header {
+    
+    background-image: url(logo.jpg);
+    background-size: cover;
+    height: 6em;
+}
+h1 {
+    color: green;
+    font-family: arial;
+}
+.menuPrincipal {   
+    background-color: black;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+    
+}
+.menuPrincipal ul {
+    margin-left: 15%;
+    border: 3px solid orange;
+    display: inline;
+    padding: 2px;
+}
+.menuPrincipal li{
+   font-size: 1rem;
+    display: inline;
+    width: 50%;
+}
+.menuPrincipal li:not(:first-child){
+   border-left: 3px solid orange;
+}
+.menuPrincipal a{
+padding-left: 2em;
+padding-right: 2em;
+
+text-decoration: none;
+font-weight: bold;
+font-family: monospace;
+color:white;
+
+}
+.menuPrincipal a:hover {
+    background-color: white;
+    color: black;
+}
+
+.wrapper {
+    background-color: lightgray;
+}
+section {
+    background-color: yellow;
+    float: left;
+    width: 60%;
+    
+}
+section p {
+    color: red;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 25px;
+    font-family: arial;
+}
+section nav {
+  background-color: inherit;
+}
+section nav ul {
+    
+    
+}
+section nav li{
+    
+}
+section nav a {
+    
+}
+
+aside{
+    background-color: lightgray;
+    float: right;
+    width: 40%;
+}
+aside ol{
+    color: blue;
+}
+
+footer {
+    background-color: black;
+    padding-bottom: 10%;  
+}
+footer p {
+    color: white;
+}
+#izquierda {
+    align-content: left;
+}
+#derecha {
+    align-content: right;
+}

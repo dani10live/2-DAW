@@ -1,0 +1,54 @@
+* {
+    margin: 0 auto;
+    font-family: sans-serif;
+    
+}
+
+body {
+    background-color: #d7e2f5;
+}
+
+.pbody {
+    margin-left: 15em;
+    margin-right: 2em;
+}
+
+.wrapper {
+    float: left;
+    background-image: url(../media/pattern.png);
+    background-repeat: repeat-y;
+}
+
+p::first-letter {
+    color: mediumpurple;
+    font-size: 2em;
+}
+
+.cuadradoAzul {
+    width: 50%;
+    background-color: #0d41bc;
+    padding: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.overflowed {
+    margin-top: 2em;
+    width: 50%;
+    height: 15em;
+    float: right;
+    overflow-y: scroll;
+    margin-bottom: 2em;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    margin-left: 4%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: #0d41bc;
+    margin-left: 5em;
+    clear: both;
+}

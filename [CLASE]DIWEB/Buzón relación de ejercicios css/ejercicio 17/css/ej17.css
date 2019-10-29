@@ -1,0 +1,14 @@
+*{
+    background-color: lightblue;
+}
+body{
+    background-image: url("../multimedia/cuaderno.png");
+    background-repeat: repeat-y;
+}
+.partederecha{
+    margin-left: 20%;
+}
+p::first-letter{
+    font-size: 2em;
+    color: purple;
+}

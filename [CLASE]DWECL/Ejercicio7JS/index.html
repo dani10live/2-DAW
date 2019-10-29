@@ -1,0 +1,22 @@
+<html>
+    <title>Ejercicio4js</title>
+    <body>
+           <script>
+                    var numo = prompt("Introduce el número para la tabla de multiplicar");
+                    var num = parseInt(numo);
+                    if(numo == num) {
+                        document.write("<table border=1 ><tr><td colspan=5 >Tabla de Multiplicar del "+num+"</td></tr>");
+                        for (let i = 0; i <= 10 ; i++) {
+                            if(i%2==0) {
+                                document.write("<tr align=center bgcolor=lightgreen><td>"+num+"</td><td>*</td><td>"+ i + "</td><td>"+num*i+"</td></tr>");    
+                            }
+                            else {
+                                document.write("<tr align=center bgcolor=lightblue><td>"+num+"</td><td>*</td><td>"+ i + "</td><td>"+num*i+"</td></tr>");
+                            }
+                        }
+                        document.write("</table>");
+                    }
+                    else document.write("<p>Error, \""+numo+"\" is not a number!</p>");  
+            </script>
+    </body>
+</html>

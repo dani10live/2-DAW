@@ -1,0 +1,19 @@
+sudo apt update
+
+sudo apt install nodejs
+
+sudo apt install npm
+
+nodejs -v
+npm init -y
+sudo npm install gulp
+
+npm install gulp -g 
+npm install --save-dev 
+npm install gulp-pug 
+npm install gulp-pug2
+npm install gulp-sass 
+npm install gulp-autoprefixer 
+npm install gulp-plumber 
+npm install browser-sync 
+

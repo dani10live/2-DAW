@@ -1,0 +1,19 @@
+<html>
+    <title>Ejercicio2js</title>
+    <body>
+        <table border="1">
+           <script>
+                    var numo = prompt("Introduce el número para la tabla de multiplicar");
+                    var num = parseInt(numo);
+                    if(numo == num) {
+                        document.write("<tr><td colspan=2 >Tabla de Multiplicar del "+num+"</td></tr>");
+                        for (let i = 0; i <= 10 ; i++) {
+                            document.write("<tr><td> "+num+" * "+ i + "</td><td>"+num*i+"</td></tr>");
+                        }
+                    }
+                    else document.write("<p>Error, \""+numo+"\" is not a number!</p>");
+                    
+            </script>
+        </table>   
+    </body>
+</html>

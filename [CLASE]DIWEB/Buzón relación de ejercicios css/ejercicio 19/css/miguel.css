@@ -1,0 +1,41 @@
+
+.contenedor{
+    background-color: #e6c18a;
+    width: 1275px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.texto{
+    margin-left: 30%;
+    margin-right: 5%;
+}
+.texto a{
+    color: white;
+    font-size: 2em;
+    margin-left: 96%;
+}
+.menu{
+    
+}
+.monalisa{
+    float: left;
+}
+.rocas{
+    float: right;
+}
+.menu{
+   float: left;
+    margin-left: 5%;
+}
+/*.menu,h1{
+    font: 50px;
+}*/ /*no me va y no se porque*/
+.menu a,h1,ul,li{
+    list-style: none;
+    color: saddlebrown;
+    font: bold;
+    font-size: 1.2em;
+}
+.menu ul{
+    margin-left: -20%;
+}
