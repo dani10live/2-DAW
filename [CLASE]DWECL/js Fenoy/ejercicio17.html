@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        var cadena = prompt("introduce palabra","");
+        document.write("<h1 id='titulo'>"+cadena+"</h1>")
+        var i=0;
+        var color=0;
+        function rgb(){
+            
+        }
+        
+        function intervalo(){
+            
+           switch(color){
+               case 0:
+                   document.getElementById("titulo").style.color = "red";
+                   color ++;
+                   break;
+               case 1:
+                   document.getElementById("titulo").style.color = "orange";
+                   color ++;
+                   break;
+                case 2:
+                   document.getElementById("titulo").style.color = "yellow";
+                   color ++;
+                   break;
+                case 3:
+                   document.getElementById("titulo").style.color = "green";
+                   color ++;
+                   break;
+                case 4:
+                   document.getElementById("titulo").style.color = "blue";
+                   color ++;
+                   break;
+                case 5:
+                   document.getElementById("titulo").style.color = "purple";
+                   color =0;
+                   break;
+           }
+               
+            document.getElementById("titulo").style.marginLeft = i+"%";
+            i++;
+            if(i>=100){
+                i=0;
+            }
+            
+        }
+        
+        function ejecutar(){
+            setInterval(intervalo,50)
+        }
+        window.onload(ejecutar())
+        
+        
+</body>
+</html>

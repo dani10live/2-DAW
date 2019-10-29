@@ -1,0 +1,53 @@
+<html>
+<head></head>
+    <body>
+        <button onclick="amarillo()">Amarillo</button>
+        <button onclick="verde()">Verde</button>
+        <button onclick="azul()">Azul</button>
+        <button onclick="rojo()">Rojo</button>
+        <button onclick="mas()">Mas</button>
+        <script>
+            var i=1;
+            function amarillo(){
+                            document.bgColor = "yellow";
+                i=1;
+            }
+            function verde(){
+                            document.bgColor = "green";
+                i=2;
+            }
+            function azul(){
+                            document.bgColor = "blue";
+                i=3;
+            }
+            function rojo(){
+                            document.bgColor = "red";
+                i=4;
+            }
+            function mas(){
+                if(i>=4){
+                    i=0;
+                }
+                i++;
+                switch(i){
+                    case 1:
+                        amarillo();
+                        break;
+                    case 2:
+                        verde();
+                        break;
+                    case 3:
+                        azul();
+                        break;
+                    case 4:
+                        rojo();
+                        i=0;
+                        break;
+                        
+                }
+                
+                
+            }
+        </script>
+    </body>
+</html>

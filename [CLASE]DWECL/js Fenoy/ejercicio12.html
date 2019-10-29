@@ -1,0 +1,37 @@
+<html>
+<head></head>
+    <body>
+        <img id="foto"/>
+        <script>
+            var sw=0;
+            var j=0;
+        function cambia(){
+                switch(sw){
+                    case 0:
+                        j++;
+                document.getElementById("foto").src="logo"+j+".jpeg";
+                        if(j>=11){
+                            sw=1;
+                        }
+                        break;
+                    case 1:
+                        j--;
+                document.getElementById("foto").src="logo"+j+".jpeg";
+                        if(j<=1){
+                            sw=0;
+                        }
+                        break;
+                }
+            }
+
+        
+            function inicio() {
+
+                    setInterval(cambia, 200);
+
+                }
+        window.onload=inicio;
+            
+        </script>
+    </body>
+</html>

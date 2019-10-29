@@ -1,0 +1,40 @@
+<html>
+<head></head>
+    <body>
+    <button onclick="crearventana(0)">Crear ventana</button>
+        <br/>
+    <button onclick="crearventana(1)">Superior-Izquierda</button>
+    <button onclick="crearventana(2)">Inferior-Izquierda</button>
+    <button onclick="crearventana(3)">Superior-Derecha</button>
+    <button onclick="crearventana(4)">Inferior-Derecha</button>
+        <script>
+             var alto =screen.height;
+             var ancho=screen.width;
+            function crearventana(sw){
+                var ventana = window.open("ventana.html","ventana","width=100px , height=100px"); //las dimensiones no me salen bien, debería de ser cuadrada la ventana
+                switch(sw){
+                    case 0://creación
+                        
+                        ventana.moveTo(ancho/2,alto/2);
+                        break;
+                        
+                    case 1://superior izquierda
+                        ventana.moveTo(0,0);
+                        break;
+                    case 2://inferior izquierda
+                        ventana.moveTo(0,alto);
+                        break;
+                    case 3://superior derecha
+                        ventana.moveTo(ancho,0);
+                        break;
+                    case 4://inferior derecha
+                        ventana.moveTo(ancho,alto);
+                        break;
+                }
+                
+                
+            }
+            
+        </script>
+    </body>
+</html>

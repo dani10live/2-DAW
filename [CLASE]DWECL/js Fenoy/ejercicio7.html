@@ -1,0 +1,26 @@
+<html>
+<head></head>
+    <body>
+        <table border="1">
+            
+    <script>
+            var i = prompt("Introduce el numero que desees");
+            var p = false;
+        document.write("<tr><td colspan=5>TABLA DE MULTIPLICAR DEL "+i+"</td></tr>");
+            for(var f=1;f<=10;f++){
+                if(p == false){
+                    document.write("<tr align=center bgcolor=#4FFF33><td>"+i+"</td><td>x</td><td>"+f+"</td><td>=</td><td><font color=red>"+f*i+"</font></td>");
+                    
+                    p = true;
+                }else{
+                    document.write("<tr align=center bgcolor=#33FFE0><td>"+i+"</td><td>x</td><td>"+f+"</td><td>=</td><td><font color=red>"+f*i+"</font></td>");
+                    
+                    p = false;
+                }
+                
+            }
+        
+            </script>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+<html>
+<title></title>
+<body>
+    <script>
+     
+        var a = prompt("Mete el valor de x²");
+        var b = prompt("Mete el valor de x");
+        var c = prompt("Mete el valor numerico");
+        var r1;
+        var r2;
+        if((Math.pow(b,2) - (4*a*c))<0){
+            document.write("el resultado de la raiz cuadrada es negativo, así que no se puede realizar la operación");
+        }else{
+        r1 = ((-1*-b) +(Math.sqrt((Math.pow(b,2) - (4*a*c)))))/(2*a);
+
+        r2 = ((-1*-b) -(Math.sqrt((Math.pow(b,2) - (4*a*c)))))/(2*a)
+        document.write("x ="+r1+"<br/>x="+r2);
+      //_document.write("x^2="+a+"<br/>x="+b+"<br/>n="+c);
+        }
+        </script>
+</body>
+</html>
